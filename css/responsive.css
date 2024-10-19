@@ -73,7 +73,7 @@
         animation-name: moveleft;
         animation-duration: 4s;
         animation-fill-mode: both;
-        animation-delay: 4s;
+        animation-delay: 1s;
         
     }
     
@@ -93,7 +93,7 @@
 	animation-name: moveleft;
 	animation-duration: 7s;
 	animation-fill-mode: both;
-	animation-delay: 4s;
+	animation-delay: 1s;
     
 	
 }
@@ -114,9 +114,9 @@
 	position: relative;
 
 	animation-name: moveleftmoto;
-	animation-duration: 9s;
+	animation-duration: 7s;
 	animation-fill-mode: both;
-	animation-delay: 5s;
+	animation-delay: 1s;
     
 	
 }
@@ -273,7 +273,7 @@
         animation-name: moveleft;
         animation-duration: 4s;
         animation-fill-mode: both;
-        animation-delay: 4s;
+        animation-delay: 1s;
         
     }
     
@@ -291,9 +291,9 @@
         z-index: -2;
         position: relative;
         animation-name: moveleft;
-        animation-duration: 7s;
+        animation-duration: 5s;
         animation-fill-mode: both;
-        animation-delay: 4s;
+        
         
         
     }
@@ -314,16 +314,16 @@
         position: relative;
 
         animation-name: moveleftmoto;
-        animation-duration: 9s;
+        animation-duration: 6s;
         animation-fill-mode: both;
-        animation-delay: 5s;
+        animation-delay: 1s;
         
         
     }
 
     .moto-img{
         position: relative;
-        margin-top: -65px;
+        margin-top: -72px;
         margin-left: 20px;
         width: 200px;
 
@@ -338,10 +338,10 @@
     }
     
     @keyframes moveleftmoto{
-        0%   { margin-left: 220px; width: 80px; opacity: 0; }
-        40%	 {opacity: 0;}
-        41%	 {opacity: 1;}
-        100% { margin-left: 25px; }	
+        0%   { margin-left: 200px; width: 80px; opacity: 0; }
+        30%	 {opacity: 0;}
+        31%	 {opacity: 1;}
+        100% { margin-left: 25px; margin-top: 5px;}	
     }
     
     
@@ -472,9 +472,9 @@
         display: flex;
         z-index: -2;
         animation-name: moveleft;
-        animation-duration: 4s;
+        animation-duration: 3s;
         animation-fill-mode: both;
-        animation-delay: 4s;
+        animation-delay: 1s;
         
     }
     
@@ -492,9 +492,9 @@
         z-index: -2;
         position: relative;
         animation-name: moveleft;
-        animation-duration: 7s;
+        animation-duration: 4s;
         animation-fill-mode: both;
-        animation-delay: 4s;
+        animation-delay: 1s;
         
         
     }
@@ -515,9 +515,9 @@
         position: relative;
 
         animation-name: moveleftmoto;
-        animation-duration: 9s;
+        animation-duration: 4s;
         animation-fill-mode: both;
-        animation-delay: 5s;
+        animation-delay: 1s;
         
         
     }
@@ -533,8 +533,8 @@
 
     @keyframes moveleft{
         0%   { margin-left: 150px; width: 130px; opacity: 0; margin-top: -15px;}
-        25%  {opacity: 0;}
-        40%	 {opacity: 1;}
+        20%  {opacity: 0;}
+        21%	 {opacity: 1;}
         100% { margin-left: 30px; }	
     }
     
@@ -548,7 +548,7 @@
     
     @keyframes scalling{
         0% { width: 0px; margin-top: 80px; opacity: 0; }
-        
+        30% { opacity: 0; }
         100% { width: 120px; opacity: 1; }	
     }
 
@@ -556,7 +556,7 @@
     .predio{
         width: 120px;
         animation-name: scalling;
-        animation-duration: 6s;
+        animation-duration: 5s;
         z-index: -1;
         position: relative;
         animation-fill-mode: forwards;
@@ -706,7 +706,7 @@
         animation-name: moveleft;
         animation-duration: 4s;
         animation-fill-mode: both;
-        animation-delay: 4s;
+        animation-delay: 1s;
         
     }
     
@@ -724,9 +724,9 @@
         z-index: -2;
         position: relative;
         animation-name: moveleft;
-        animation-duration: 7s;
+        animation-duration: 4s;
         animation-fill-mode: both;
-        animation-delay: 4s;
+        animation-delay: 1s;
         
         
     }
@@ -747,9 +747,9 @@
         position: relative;
 
         animation-name: moveleftmoto;
-        animation-duration: 9s;
+        animation-duration: 4s;
         animation-fill-mode: both;
-        animation-delay: 5s;
+        /* animation-delay: 1s; */
         
         
     }
@@ -757,7 +757,7 @@
     .moto-img{
         position: relative;
         margin-top: -65px;
-        margin-left: 35px;
+        margin-left: 40px;
         width: 200px;
 
     }
@@ -766,14 +766,14 @@
     @keyframes moveleft{
         0%   { margin-left: 150px; width: 130px; opacity: 0; margin-top: -15px;}
         25%  {opacity: 0;}
-        40%	 {opacity: 1;}
+        26%	 {opacity: 1;}
         100% { margin-left: 30px; }	
     }
     
     @keyframes moveleftmoto{
-        0%   { margin-left: 220px; width: 80px; opacity: 0; }
-        40%	 {opacity: 0;}
-        41%	 {opacity: 1;}
+        0%   { margin-left: 220px; width: 80px; opacity: 0; margin-top: -10px; }
+        30%	 {opacity: 0;}
+        31%	 {opacity: 1;}
         100% { margin-left: 25px; }	
     }
     
@@ -912,7 +912,7 @@
         animation-name: moveleft;
         animation-duration: 4s;
         animation-fill-mode: both;
-        animation-delay: 4s;
+        animation-delay: 1s;
         
     }
     
@@ -930,9 +930,9 @@
         z-index: -2;
         position: relative;
         animation-name: moveleft;
-        animation-duration: 7s;
+        animation-duration: 4s;
         animation-fill-mode: both;
-        animation-delay: 4s;
+        animation-delay: 1s;
         
         
     }
@@ -953,9 +953,9 @@
         position: relative;
 
         animation-name: moveleftmoto;
-        animation-duration: 9s;
+        animation-duration: 5s;
         animation-fill-mode: both;
-        animation-delay: 5s;
+        animation-delay: 1s;
         
         
     }
@@ -986,7 +986,7 @@
     
     @keyframes scalling{
         0% { width: 0px; margin-top: 80px; opacity: 0; }
-        
+        25% { opacity: 0;}
         100% { width: 130px; opacity: 1; }	
     }
 
@@ -994,7 +994,7 @@
     .predio{
         width: 120px;
         animation-name: scalling;
-        animation-duration: 6s;
+        animation-duration: 4s;
         z-index: -1;
         position: relative;
         animation-fill-mode: forwards;
@@ -1103,9 +1103,9 @@
         display: flex;
         z-index: -2;
         animation-name: moveleft;
-        animation-duration: 4s;
+        animation-duration: 3s;
         animation-fill-mode: both;
-        animation-delay: 4s;
+        animation-delay: 1s;
         
     }
     
@@ -1123,9 +1123,9 @@
         z-index: -2;
         position: relative;
         animation-name: moveleft;
-        animation-duration: 7s;
+        animation-duration: 3s;
         animation-fill-mode: both;
-        animation-delay: 4s;
+        animation-delay: 1s;
         
         
     }
@@ -1146,9 +1146,9 @@
         position: relative;
 
         animation-name: moveleftmoto;
-        animation-duration: 9s;
+        animation-duration: 4s;
         animation-fill-mode: both;
-        animation-delay: 5s;
+        animation-delay: 1s;
         
         
     }
@@ -1179,7 +1179,7 @@
     
     @keyframes scalling{
         0% { width: 0px; margin-top: 80px; opacity: 0; }
-        
+        25% { opacity: 0;}
         100% { width: 130px; opacity: 1; }	
     }
 
@@ -1187,7 +1187,7 @@
     .predio{
         width: 120px;
         animation-name: scalling;
-        animation-duration: 6s;
+        animation-duration: 4s;
         z-index: -1;
         position: relative;
         animation-fill-mode: forwards;
