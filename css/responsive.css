@@ -1,0 +1,1452 @@
+@media (max-width: 320px){
+
+    .container{
+        margin-top: 10px;
+        justify-content: center;
+    }
+    
+    .matry{
+        width: 100px;
+        align-self: center;
+        padding: 30px; 
+    }
+    
+    
+    .links p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    /* .seguradoras{
+        display: flex;
+        flex-wrap: wrap;
+        width:320px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .seguradoras{
+        display: grid;
+        grid-template-columns: auto;
+        width:150px;
+        height: 250px;
+        margin-top: 10px;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: -10px;
+    }
+    
+    .logocolumns {
+        width:300px;
+        height: 250px;
+        display: grid;
+        grid-template-columns: 150px 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .behind-logo{
+        position: relative;	
+        display: grid;
+        height: 50px;
+        width: 320px;
+        margin-bottom: 150px;
+        z-index: 1;
+    }
+
+    .logo{
+        display: flex;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .onix{
+        position: relative;
+        width: 100px;
+        display: flex;
+        z-index: -2;
+        animation-name: moveleft;
+        animation-duration: 4s;
+        animation-fill-mode: both;
+        animation-delay: 4s;
+        
+    }
+    
+    .onix-img{
+        position: relative;
+        margin-top: -70px;
+        margin-left: -30px;
+        width: 200px;
+    }
+
+    
+.corolla{
+	width: 130px;
+	display: flex;
+	z-index: -2;
+	position: relative;
+	animation-name: moveleft;
+	animation-duration: 7s;
+	animation-fill-mode: both;
+	animation-delay: 4s;
+    
+	
+}
+
+.corolla-img{
+	position: relative;
+	margin-top: -70px;
+	margin-left: -5px;
+    width: 200px;
+
+}
+
+.moto{
+	width: 80px;
+	display: flex;
+	z-index: -2;
+	
+	position: relative;
+
+	animation-name: moveleftmoto;
+	animation-duration: 9s;
+	animation-fill-mode: both;
+	animation-delay: 5s;
+    
+	
+}
+
+.moto-img{
+	position: relative;
+	margin-top: -65px;
+	margin-left: 20px;
+    width: 200px;
+
+}
+
+
+    @keyframes moveleft{
+        0%   { margin-left: 150px; width: 130px; opacity: 0; margin-top: -15px;}
+        25%  {opacity: 0;}
+        40%	 {opacity: 1;}
+        100% { margin-left: 30px; }	
+    }
+    
+    @keyframes moveleftmoto{
+        0%   { margin-left: 220px; width: 80px; opacity: 0; }
+        40%	 {opacity: 0;}
+        41%	 {opacity: 1;}
+        100% { margin-left: 25px; }	
+    }
+    
+    
+    @keyframes scalling{
+        0% { width: 0px; margin-top: 100px; opacity: 0; }
+        
+        100% { width: 100px; opacity: 1; }	
+    }
+
+
+    .predio{
+        width: 100px;
+        animation-name: scalling;
+        animation-duration: 6s;
+        z-index: -1;
+        position: relative;
+        animation-fill-mode: forwards;
+    }
+    
+    .predio-img{
+        position: relative;
+        margin-top: -190px;
+        margin-left: 220px;
+    }
+
+    
+    .seguradoras img{
+        width: 90px;
+        margin: 5px;
+    }
+    .seguradoras .tokio {
+        width: 150px;
+        height: 60px;
+    }
+    
+    /* .seguradoras .liberty{
+        width: 120px;
+    } */
+    
+    .seguradoras .allianz{
+        width: 120px;
+        height: 60px;
+    }
+
+    .seguradoras .yelum{
+        width: 140px;
+        
+    }
+
+    button {
+        width: 260px;
+        height: 80px;
+        font-size: 18px;
+    }
+
+    .contacts a {
+        font-size: 16px;
+    }
+}
+    
+@media (min-width: 321px) and (max-width: 359px){ 
+
+    .container{
+        margin-top: 10px;
+        justify-content: center;
+    }
+    
+    .matry{
+        width: 140px;
+    }
+    
+    .links p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    
+    /* .seguradoras{
+        display: flex;
+        flex-wrap: wrap;
+        width:320px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .seguradoras{
+        display: grid;
+        grid-template-columns: auto;
+        width:150px;
+        height: 250px;
+        margin-top: 10px;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: -10px;
+    }
+    
+    .logocolumns {
+        width:300px;
+        height: 250px;
+        display: grid;
+        grid-template-columns: 150px 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .behind-logo{
+        position: relative;	
+        display: grid;
+        height: 50px;
+        width: 320px;
+        margin-bottom: 150px;
+        z-index: 1;
+    }
+
+    .logo{
+        display: flex;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .onix{
+        position: relative;
+        width: 100px;
+        display: flex;
+        z-index: -2;
+        animation-name: moveleft;
+        animation-duration: 4s;
+        animation-fill-mode: both;
+        animation-delay: 4s;
+        
+    }
+    
+    .onix-img{
+        position: relative;
+        margin-top: -70px;
+        margin-left: -30px;
+        width: 200px;
+    }
+
+        
+    .corolla{
+        width: 130px;
+        display: flex;
+        z-index: -2;
+        position: relative;
+        animation-name: moveleft;
+        animation-duration: 7s;
+        animation-fill-mode: both;
+        animation-delay: 4s;
+        
+        
+    }
+
+    .corolla-img{
+        position: relative;
+        margin-top: -70px;
+        margin-left: -5px;
+        width: 200px;
+
+    }
+
+    .moto{
+        width: 80px;
+        display: flex;
+        z-index: -2;
+        
+        position: relative;
+
+        animation-name: moveleftmoto;
+        animation-duration: 9s;
+        animation-fill-mode: both;
+        animation-delay: 5s;
+        
+        
+    }
+
+    .moto-img{
+        position: relative;
+        margin-top: -65px;
+        margin-left: 20px;
+        width: 200px;
+
+    }
+
+
+    @keyframes moveleft{
+        0%   { margin-left: 150px; width: 130px; opacity: 0; margin-top: -15px;}
+        25%  {opacity: 0;}
+        40%	 {opacity: 1;}
+        100% { margin-left: 30px; }	
+    }
+    
+    @keyframes moveleftmoto{
+        0%   { margin-left: 220px; width: 80px; opacity: 0; }
+        40%	 {opacity: 0;}
+        41%	 {opacity: 1;}
+        100% { margin-left: 25px; }	
+    }
+    
+    
+    @keyframes scalling{
+        0% { width: 0px; margin-top: 100px; opacity: 0; }
+        
+        100% { width: 100px; opacity: 1; }	
+    }
+
+
+    .predio{
+        width: 100px;
+        animation-name: scalling;
+        animation-duration: 6s;
+        z-index: -1;
+        position: relative;
+        animation-fill-mode: forwards;
+    }
+    
+    .predio-img{
+        position: relative;
+        margin-top: -190px;
+        margin-left: 220px;
+    }
+    
+    .seguradoras img{
+        width: 90px;
+        margin: 5px;
+    }
+    .seguradoras .tokio {
+        width: 140px;
+        height: 60px;
+    }
+    
+    .seguradoras .yelum{
+        width: 150px;
+        
+    }
+
+    /* .seguradoras .liberty{
+        width: 120px;
+    } */
+    
+    .seguradoras .allianz{
+        width: 120px;
+        height: 60px;
+    }
+
+    button {
+        width: 260px;
+        height: 80px;
+        font-size: 16px;
+    }
+
+    .fa-whatsapp{
+        font-size: 30px;
+    }
+    
+    .fa-envelope{
+        font-size: 30px;
+    }
+    
+    .contacts a {
+        font-size: 18px;
+    }
+    
+}
+
+
+@media (min-width: 360px) and (max-width: 375px){ 
+    .container{
+        margin-top: 5px;
+        justify-content: center;
+    }
+    
+    .matry{
+        width: 150px;
+        padding: 15px;
+        margin-top: 5px;
+    }
+    
+    .links p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 5px;
+    }
+    
+    .seguradoras{
+        display: grid;
+        grid-template-columns: auto;
+        width: 170px;
+        margin-top: 5px;
+        justify-content: center;
+        align-items: center;
+        margin-left: -10px;
+    }
+
+    .logocolumns {
+        width:340px;
+        height: 250px;
+        display: grid;
+        grid-template-columns: 170px 170px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .behind-logo{
+        position: relative;	
+        display: grid;
+        height: 50px;
+        width: 360px;
+        margin-bottom: 150px;
+        z-index: 1;
+    }
+
+    .logo{
+        display: flex;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .onix{
+        position: relative;
+        width: 125px;
+        display: flex;
+        z-index: -2;
+        animation-name: moveleft;
+        animation-duration: 4s;
+        animation-fill-mode: both;
+        animation-delay: 4s;
+        
+    }
+    
+    .onix-img{
+        position: relative;
+        margin-top: -70px;
+        margin-left: -30px;
+        width: 200px;
+    }
+
+        
+    .corolla{
+        width: 140px;
+        display: flex;
+        z-index: -2;
+        position: relative;
+        animation-name: moveleft;
+        animation-duration: 7s;
+        animation-fill-mode: both;
+        animation-delay: 4s;
+        
+        
+    }
+
+    .corolla-img{
+        position: relative;
+        margin-top: -70px;
+        margin-left: -5px;
+        width: 200px;
+
+    }
+
+    .moto{
+        width: 80px;
+        display: flex;
+        z-index: -2;
+        
+        position: relative;
+
+        animation-name: moveleftmoto;
+        animation-duration: 9s;
+        animation-fill-mode: both;
+        animation-delay: 5s;
+        
+        
+    }
+
+    .moto-img{
+        position: relative;
+        margin-top: -65px;
+        margin-left: 30px;
+        width: 200px;
+
+    }
+
+
+    @keyframes moveleft{
+        0%   { margin-left: 150px; width: 130px; opacity: 0; margin-top: -15px;}
+        25%  {opacity: 0;}
+        40%	 {opacity: 1;}
+        100% { margin-left: 30px; }	
+    }
+    
+    @keyframes moveleftmoto{
+        0%   { margin-left: 220px; width: 80px; opacity: 0; }
+        40%	 {opacity: 0;}
+        41%	 {opacity: 1;}
+        100% { margin-left: 25px; }	
+    }
+    
+    
+    @keyframes scalling{
+        0% { width: 0px; margin-top: 80px; opacity: 0; }
+        
+        100% { width: 120px; opacity: 1; }	
+    }
+
+
+    .predio{
+        width: 120px;
+        animation-name: scalling;
+        animation-duration: 6s;
+        z-index: -1;
+        position: relative;
+        animation-fill-mode: forwards;
+    }
+    
+    .predio-img{
+        position: relative;
+        margin-top: -210px;
+        margin-left: 240px;
+    }
+    
+    .seguradoras img{
+        width: 90px;
+        margin: 5px;
+        align-self: center;
+        justify-self: center;
+    
+    }
+    .seguradoras .tokio {
+        width: 140px;
+        height: 60px;
+    }
+
+    .seguradoras .yelum{
+        width: 140px;
+        
+    }
+
+    /* .seguradoras .liberty{
+        width: 120px;
+    } */
+    
+    .seguradoras .allianz{
+        width: 120px;
+        height: 60px;
+    }
+
+    .fa-whatsapp{
+        font-size: 30px;
+    }
+
+    button {
+        width: 240px;
+        height: 80px;
+        font-size: 14px;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .fa-envelope{
+        font-size: 30px;
+    }
+    
+    .contacts a {
+        font-size: 14px;
+    }
+
+    section .contacts{
+        margin-top: 5px;
+    }
+    
+}
+
+/* falta mexer */
+
+@media (min-width: 376px) and (max-width: 400px){
+
+    .container{
+        margin-top: 10px;
+        justify-content: center;
+    }
+    
+    .matry{
+        width: 150px;
+        align-self: center; 
+    }
+    
+    .links p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    /* .seguradoras{
+        display: flex;
+        flex-wrap: wrap;
+        width:375px;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .seguradoras .animate__animated .animate__slideInLeft{
+        justify-content: center;
+        align-items: center;
+    }
+    /* .seguradoras{
+        display: grid;
+        grid-template-columns: auto;
+        width: 185px;
+        margin-top: 5px;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .seguradoras{
+        display: grid;
+        grid-template-columns: auto;
+        width: 170px;
+        margin-top: 5px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .logocolumns {
+        width:340px;
+        height: 250px;
+        display: grid;
+        grid-template-columns: 170px 170px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .behind-logo{
+        position: relative;	
+        display: grid;
+        height: 50px;
+        width: 376px;
+        margin-bottom: 150px;
+        z-index: 1;
+    }
+
+    .logo{
+        display: flex;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .onix{
+        position: relative;
+        width: 125px;
+        display: flex;
+        z-index: -2;
+        animation-name: moveleft;
+        animation-duration: 4s;
+        animation-fill-mode: both;
+        animation-delay: 4s;
+        
+    }
+    
+    .onix-img{
+        position: relative;
+        margin-top: -70px;
+        margin-left: -30px;
+        width: 200px;
+    }
+
+        
+    .corolla{
+        width: 140px;
+        display: flex;
+        z-index: -2;
+        position: relative;
+        animation-name: moveleft;
+        animation-duration: 7s;
+        animation-fill-mode: both;
+        animation-delay: 4s;
+        
+        
+    }
+
+    .corolla-img{
+        position: relative;
+        margin-top: -70px;
+        margin-left: -5px;
+        width: 200px;
+
+    }
+
+    .moto{
+        width: 80px;
+        display: flex;
+        z-index: -2;
+        
+        position: relative;
+
+        animation-name: moveleftmoto;
+        animation-duration: 9s;
+        animation-fill-mode: both;
+        animation-delay: 5s;
+        
+        
+    }
+
+    .moto-img{
+        position: relative;
+        margin-top: -65px;
+        margin-left: 35px;
+        width: 200px;
+
+    }
+
+
+    @keyframes moveleft{
+        0%   { margin-left: 150px; width: 130px; opacity: 0; margin-top: -15px;}
+        25%  {opacity: 0;}
+        40%	 {opacity: 1;}
+        100% { margin-left: 30px; }	
+    }
+    
+    @keyframes moveleftmoto{
+        0%   { margin-left: 220px; width: 80px; opacity: 0; }
+        40%	 {opacity: 0;}
+        41%	 {opacity: 1;}
+        100% { margin-left: 25px; }	
+    }
+    
+    
+    @keyframes scalling{
+        0% { width: 0px; margin-top: 80px; opacity: 0; }
+        
+        100% { width: 120px; opacity: 1; }	
+    }
+
+
+    .predio{
+        width: 120px;
+        animation-name: scalling;
+        animation-duration: 6s;
+        z-index: -1;
+        position: relative;
+        animation-fill-mode: forwards;
+    }
+    
+    .predio-img{
+        position: relative;
+        margin-top: -210px;
+        margin-left: 255px;
+    }
+
+    .seguradoras img{
+        width: 110px;
+        margin: 5px;
+        margin-right: 10px;
+        align-self: center;
+        justify-self: center;
+    }
+    .seguradoras .tokio {
+        width: 150px;
+        height: 60px;
+    }
+    
+    .seguradoras .yelum{
+        width: 160px;
+        
+    }
+
+
+    /* .seguradoras .liberty{
+        width: 120px;
+    } */
+    
+    .seguradoras .allianz{
+        width: 120px;
+        height: 60px;
+    }    
+} 
+
+@media (min-width: 401px) and (max-width: 425px){
+
+    .container{
+        margin-top: 10px;
+        justify-content: center;
+    }
+    
+    .matry{
+        width: 150px;
+        align-self: center; 
+    }
+    
+    .links p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    /* .seguradoras{
+        display: flex;
+        flex-wrap: wrap;
+        width:375px;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .seguradoras .animate__animated .animate__slideInLeft{
+        justify-content: center;
+        align-items: center;
+    }
+    /* .seguradoras{
+        display: grid;
+        grid-template-columns: auto;
+        width: 185px;
+        margin-top: 5px;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .seguradoras{
+        display: grid;
+        grid-template-columns: auto;
+        width: 170px;
+        margin-top: 5px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .logocolumns {
+        width:340px;
+        height: 250px;
+        display: grid;
+        grid-template-columns: 170px 170px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .behind-logo{
+        position: relative;	
+        display: grid;
+        height: 50px;
+        width: 400px;
+        margin-bottom: 150px;
+        z-index: 1;
+    }
+
+    .logo{
+        display: flex;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .onix{
+        position: relative;
+        width: 140px;
+        display: flex;
+        z-index: -2;
+        animation-name: moveleft;
+        animation-duration: 4s;
+        animation-fill-mode: both;
+        animation-delay: 4s;
+        
+    }
+    
+    .onix-img{
+        position: relative;
+        margin-top: -80px;
+        margin-left: -30px;
+        width: 200px;
+    }
+
+        
+    .corolla{
+        width: 160px;
+        display: flex;
+        z-index: -2;
+        position: relative;
+        animation-name: moveleft;
+        animation-duration: 7s;
+        animation-fill-mode: both;
+        animation-delay: 4s;
+        
+        
+    }
+
+    .corolla-img{
+        position: relative;
+        margin-top: -80px;
+        margin-left: -5px;
+        width: 200px;
+
+    }
+
+    .moto{
+        width: 110px;
+        display: flex;
+        z-index: -2;
+        
+        position: relative;
+
+        animation-name: moveleftmoto;
+        animation-duration: 9s;
+        animation-fill-mode: both;
+        animation-delay: 5s;
+        
+        
+    }
+
+    .moto-img{
+        position: relative;
+        margin-top: -80px;
+        margin-left: 45px;
+        width: 200px;
+
+    }
+
+
+    @keyframes moveleft{
+        0%   { margin-left: 150px; width: 130px; opacity: 0; margin-top: -15px;}
+        20%  {opacity: 0;}
+        21%	 {opacity: 1;}
+        100% { margin-left: 30px; }	
+    }
+    
+    @keyframes moveleftmoto{
+        0%   { margin-left: 220px; width: 80px; opacity: 0; }
+        40%	 {opacity: 0;}
+        41%	 {opacity: 1;}
+        100% { margin-left: 25px; }	
+    }
+    
+    
+    @keyframes scalling{
+        0% { width: 0px; margin-top: 80px; opacity: 0; }
+        
+        100% { width: 130px; opacity: 1; }	
+    }
+
+
+    .predio{
+        width: 120px;
+        animation-name: scalling;
+        animation-duration: 6s;
+        z-index: -1;
+        position: relative;
+        animation-fill-mode: forwards;
+    }
+    
+    .predio-img{
+        position: relative;
+        margin-top: -210px;
+        margin-left: 270px;
+    }
+
+    .seguradoras img{
+        width: 110px;
+        margin: 5px;
+        margin-right: 10px;
+        align-self: center;
+        justify-self: center;
+    }
+    .seguradoras .tokio {
+        width: 150px;
+        height: 60px;
+    }
+    
+    .seguradoras .yelum{
+        width: 160px;
+        
+    }
+
+
+    /* .seguradoras .liberty{
+        width: 120px;
+    } */
+    
+    .seguradoras .allianz{
+        width: 120px;
+        height: 60px;
+    }    
+} 
+
+@media (min-width: 426px) and (max-width: 768px){
+
+    .container{
+        margin-top: 10px;
+        justify-content: center;
+    }
+    
+    .matry{
+        width: 150px;
+        align-self: center; 
+    }
+    
+    .links p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    /* .seguradoras{
+        display: flex;
+        flex-wrap: wrap;
+        width:375px;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+    } */
+    
+    .seguradoras{
+        display: grid;
+        grid-template-columns: auto;
+        width: 170px;
+        margin-top: 5px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .logocolumns {
+        width:340px;
+        height: 250px;
+        display: grid;
+        grid-template-columns: 170px 170px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .behind-logo{
+        position: relative;	
+        display: grid;
+        height: 50px;
+        width: 400px;
+        margin-bottom: 150px;
+        z-index: 1;
+    }
+
+    .logo{
+        display: flex;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .onix{
+        position: relative;
+        width: 140px;
+        display: flex;
+        z-index: -2;
+        animation-name: moveleft;
+        animation-duration: 4s;
+        animation-fill-mode: both;
+        animation-delay: 4s;
+        
+    }
+    
+    .onix-img{
+        position: relative;
+        margin-top: -80px;
+        margin-left: -30px;
+        width: 200px;
+    }
+
+        
+    .corolla{
+        width: 160px;
+        display: flex;
+        z-index: -2;
+        position: relative;
+        animation-name: moveleft;
+        animation-duration: 7s;
+        animation-fill-mode: both;
+        animation-delay: 4s;
+        
+        
+    }
+
+    .corolla-img{
+        position: relative;
+        margin-top: -80px;
+        margin-left: -5px;
+        width: 200px;
+
+    }
+
+    .moto{
+        width: 110px;
+        display: flex;
+        z-index: -2;
+        
+        position: relative;
+
+        animation-name: moveleftmoto;
+        animation-duration: 9s;
+        animation-fill-mode: both;
+        animation-delay: 5s;
+        
+        
+    }
+
+    .moto-img{
+        position: relative;
+        margin-top: -80px;
+        margin-left: 45px;
+        width: 200px;
+
+    }
+
+
+    @keyframes moveleft{
+        0%   { margin-left: 150px; width: 130px; opacity: 0; margin-top: -15px;}
+        20%  {opacity: 0;}
+        21%	 {opacity: 1;}
+        100% { margin-left: 30px; }	
+    }
+    
+    @keyframes moveleftmoto{
+        0%   { margin-left: 220px; width: 80px; opacity: 0; }
+        40%	 {opacity: 0;}
+        41%	 {opacity: 1;}
+        100% { margin-left: 25px; }	
+    }
+    
+    
+    @keyframes scalling{
+        0% { width: 0px; margin-top: 80px; opacity: 0; }
+        
+        100% { width: 130px; opacity: 1; }	
+    }
+
+
+    .predio{
+        width: 120px;
+        animation-name: scalling;
+        animation-duration: 6s;
+        z-index: -1;
+        position: relative;
+        animation-fill-mode: forwards;
+    }
+    
+    .predio-img{
+        position: relative;
+        margin-top: -210px;
+        margin-left: 270px;
+    }
+
+    .seguradoras img{
+        width: 110px;
+        margin: 5px;
+        margin-right: 10px;
+        align-self: center;
+        justify-self: center;
+    }
+    .seguradoras .tokio {
+        width: 150px;
+        height: 60px;
+    }
+    
+    .seguradoras .yelum{
+        width: 160px;
+        
+    }
+
+
+    /* .seguradoras .liberty{
+        width: 120px;
+    } */
+    
+    .seguradoras .allianz{
+        width: 120px;
+        height: 60px;
+    }    
+
+
+    .seguradoras img{
+        width: 110px;
+        margin: 5px;
+        margin-right: 10px;
+    }
+    .seguradoras .tokio {
+        width: 150px;
+        height: 60px;
+    }
+    
+    .seguradoras .yelum{
+        width: 160px;
+        
+    }
+    /* .seguradoras .liberty{
+        width: 120px;
+    } */
+    
+    .seguradoras .allianz{
+        width: 120px;
+        height: 60px;
+    }    
+} 
+
+/* @media (min-width: 768px) {
+
+    .container{
+        margin-top: 10px;
+        justify-content: center;
+    }
+    
+    .matry{
+        width: 150px;
+        align-self: center; 
+    }
+    
+    .links p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+    }
+        
+    .seguradoras{
+        display: grid;
+        grid-template-columns: auto;
+        width: 170px;
+        margin-top: 5px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .logocolumns {
+        width:340px;
+        height: 250px;
+        display: grid;
+        grid-template-columns: 170px 170px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .behind-logo{
+        position: relative;	
+        display: grid;
+        height: 50px;
+        width: 400px;
+        margin-bottom: 150px;
+        z-index: 1;
+    }
+
+    .logo{
+        display: flex;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .onix{
+        position: relative;
+        width: 140px;
+        display: flex;
+        z-index: -2;
+        animation-name: moveleft;
+        animation-duration: 4s;
+        animation-fill-mode: both;
+        animation-delay: 4s;
+        
+    }
+    
+    .onix-img{
+        position: relative;
+        margin-top: -80px;
+        margin-left: -30px;
+        width: 200px;
+    }
+
+        
+    .corolla{
+        width: 160px;
+        display: flex;
+        z-index: -2;
+        position: relative;
+        animation-name: moveleft;
+        animation-duration: 7s;
+        animation-fill-mode: both;
+        animation-delay: 4s;
+        
+        
+    }
+
+    .corolla-img{
+        position: relative;
+        margin-top: -80px;
+        margin-left: -5px;
+        width: 200px;
+
+    }
+
+    .moto{
+        width: 110px;
+        display: flex;
+        z-index: -2;
+        
+        position: relative;
+
+        animation-name: moveleftmoto;
+        animation-duration: 9s;
+        animation-fill-mode: both;
+        animation-delay: 5s;
+        
+        
+    }
+
+    .moto-img{
+        position: relative;
+        margin-top: -80px;
+        margin-left: 45px;
+        width: 200px;
+
+    }
+
+
+    @keyframes moveleft{
+        0%   { margin-left: 150px; width: 130px; opacity: 0; margin-top: -15px;}
+        20%  {opacity: 0;}
+        21%	 {opacity: 1;}
+        100% { margin-left: 30px; }	
+    }
+    
+    @keyframes moveleftmoto{
+        0%   { margin-left: 220px; width: 80px; opacity: 0; }
+        40%	 {opacity: 0;}
+        41%	 {opacity: 1;}
+        100% { margin-left: 25px; }	
+    }
+    
+    
+    @keyframes scalling{
+        0% { width: 0px; margin-top: 80px; opacity: 0; }
+        
+        100% { width: 130px; opacity: 1; }	
+    }
+
+
+    .predio{
+        width: 120px;
+        animation-name: scalling;
+        animation-duration: 6s;
+        z-index: -1;
+        position: relative;
+        animation-fill-mode: forwards;
+    }
+    
+    .predio-img{
+        position: relative;
+        margin-top: -210px;
+        margin-left: 270px;
+    }
+
+    .seguradoras img{
+        width: 110px;
+        margin: 5px;
+        margin-right: 10px;
+        align-self: center;
+        justify-self: center;
+    }
+    .seguradoras .tokio {
+        width: 150px;
+        height: 60px;
+    }
+    
+    .seguradoras .yelum{
+        width: 160px;
+        
+    }
+
+    .seguradoras .allianz{
+        width: 120px;
+        height: 60px;
+    }    
+
+
+    .seguradoras img{
+        width: 110px;
+        margin: 5px;
+        margin-right: 10px;
+    }
+    .seguradoras .tokio {
+        width: 150px;
+        height: 60px;
+    }
+    
+    .seguradoras .yelum{
+        width: 160px;
+        
+    }
+    
+    .seguradoras .allianz{
+        width: 120px;
+        height: 60px;
+    }    
+}  */

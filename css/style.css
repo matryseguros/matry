@@ -1,0 +1,349 @@
+.bio{
+    display: flex;
+	flex-direction: column;
+	background-image: linear-gradient(#bf9b30, #ffbf00, #ffbf00, #bf9b30);
+    width: 100vw;
+    height: 100vh;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.container{
+	margin-top: 10px;
+	justify-content: center;
+	
+}
+
+.matry {
+		opacity: 1;
+		animation-name: fadeInOpacity;
+		animation-iteration-count: 1;
+		animation-timing-function: ease-in;
+		animation-duration: 1s;
+}
+	
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+.matry{
+	width: 180px;
+	align-self: center;
+	padding: 20px;
+	background-color: aliceblue;
+	border-radius: 50%;
+	border: 10px solid goldenrod;
+	border-style: double;
+	z-index: 1;
+	
+	
+	/* margin-left: 200px; */
+}
+
+.matry-img{
+	position: relative;
+	justify-self: center;
+	align-self: center;
+	
+
+}
+
+.links{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.links p{
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+	margin: 10px;
+}
+
+.seguradoras{
+	display: grid;
+	grid-template-columns: auto;
+	width: 200px;
+	height: 250px;
+	margin-top: 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logocolumns {
+	width:400px;
+	height: 250px;
+	display: grid;
+	grid-template-columns: 200px 200px;
+	justify-content: center;
+	align-items: center;
+}
+
+.behind-logo{
+	position: relative;	
+	display: grid;
+	height: 200px;
+	width: 800px;
+	margin-bottom: 100px;
+	z-index: 1;
+}
+
+.logo{
+	display: flex;
+	height: 70px;
+	justify-content: center;
+	align-items: center;
+}
+
+.onix{
+	position: relative;
+	width: 260px;
+	display: flex;
+	z-index: -2;
+	animation-name: moveleft;
+	animation-duration: 4s;
+	animation-fill-mode: both;
+	animation-delay: 4s;
+}
+
+.onix-img{
+	position: relative;
+	margin-top: -130px;
+	margin-left: 0px;
+
+}
+
+.corolla{
+	width: 300px;
+	display: flex;
+	z-index: -2;
+	position: relative;
+	animation-name: moveleft;
+	animation-duration: 7s;
+	animation-fill-mode: both;
+	animation-delay: 4s;
+	
+}
+
+.corolla-img{
+	position: relative;
+	margin-top: -130px;
+	margin-left: 50px;
+
+}
+
+.moto{
+	width: 180px;
+	display: flex;
+	z-index: -2;
+	
+	position: relative;
+
+	animation-name: moveleftmoto;
+	animation-duration: 7s;
+	animation-fill-mode: both;
+	animation-delay: 5s;
+	
+}
+
+.moto-img{
+	position: relative;
+	margin-top: -130px;
+	margin-left: 140px;
+
+}
+
+
+@keyframes moveleft{
+	0%   { margin-left: 320px; width: 200px; opacity: 0;}
+	20%	 {opacity: 0;}
+	21%	 {opacity: 1;}
+	100% { margin-left: 20px; }	
+}
+
+@keyframes moveleftmoto{
+	0%   { margin-left: 200px; width: 180px; opacity: 0; margin-top: -80px; }
+	15%	 {opacity: 0;}
+	21%	 {opacity: 1;}
+	100% { margin-left: 60px; }	
+}
+
+
+@keyframes scalling{
+	0% { width: 0px; margin-top: 220px; opacity: 0; }
+	
+	100% { width: 200px; opacity: 1; }	
+}
+
+.predio{
+	width: 180px;
+	animation-name: scalling;
+	animation-duration: 6s;
+	z-index: -1;
+	position: relative;
+	animation-fill-mode: forwards;
+
+	
+
+}
+
+.predio-img{
+	position: relative;
+	margin-top: -320px;
+	margin-left: 490px;
+}
+
+.seguradoras img{
+	width: 120px;
+	/* min-height: 60px; */
+	margin: 5px;
+	justify-self: center;
+	align-self: center;
+}
+
+.seguradoras .yelum {
+	width: 180px;
+	
+}
+
+.seguradoras .porto {
+	width: 140px;
+}
+
+.seguradoras .hdi{
+	width: 100px;
+}
+
+.seguradoras .allianz{
+	width: 150px;
+	height: 80px;
+}
+
+.seguradoras .azul{
+	width: 80px;
+	
+}
+
+.seguradoras .tokio {
+	width: 180px;
+	height: 80px;
+}
+
+
+
+/* .seguradoras .liberty {
+	width: 180px;
+} */
+
+
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+button {
+	width: 300px;
+	height: 80px;
+	cursor: pointer;
+	font-family: "Freeman", sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+	color: black;
+	background: radial-gradient(circle,
+    #ffcf40,#ffbf00);
+	border: 2px solid white;
+	box-shadow: 5px 5px 0 white, -5px -5px 0 white, -5px 5px 0 white,
+		5px -5px 0 white;
+	transition: 1000ms;
+	
+}
+
+button:active{
+	transition: ease-out;
+	box-shadow: 20px 5px 0 white, -20px -5px 0 white;
+}
+
+.fa-whatsapp{
+	font-size: 40px;
+	color: #FFF;
+	text-shadow: 1px 1px black;
+}
+
+.fa-envelope{
+	font-size: 40px;
+	color: #FFF;
+	text-shadow: 1px 1px black;	
+}
+
+section .contacts{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.contacts a {
+	display: flex;
+	text-decoration: none;
+	color: #FFF;
+	margin-right: 15px;
+	justify-content: space-evenly;
+	align-items: center;
+	/* font-family: "Vast Shadow", serif; */
+	font-family: "Rakkas", serif;
+	/* font-family: "Stardos Stencil", system-ui; */
+	/* 3 font-family: "Aldrich", sans-serif; */
+	/* 4 font-family: "Aclonica", sans-serif; */
+	/* font-family: "Squada One", sans-serif; */
+	/* font-family: "Caveat", cursive; */
+	font-size: 20px;
+	font-weight: 400;
+	text-shadow: 1.2px 0.5px black;
+}
+
+.contacts i{
+	margin-right: 5px;
+}
+
+.contacts i:active{
+	color: goldenrod;
+}
+
+.contacts a:active{
+	color: goldenrod;
+}
+
+button i {
+	margin-right: 8px;
+}
+
+.fa-motorcycle{
+	margin-left: 4px;
+}
+.fa-truck{
+	margin-right: 2px;
+}
+
+
+.whatsapplinklogo{
+	width: 300px;
+}

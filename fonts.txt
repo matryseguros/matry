@@ -1,0 +1,29 @@
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Aldrich&family=Faster+One&family=Rakkas&family=Squada+One&family=Stardos+Stencil:wght@400;700&family=Vast+Shadow&display=swap" rel="stylesheet">
+
+
+font-family: "Faster One", system-ui;
+
+font-family: "Vast Shadow", serif;
+
+font-family: "Rakkas", serif;
+
+font-family: "Stardos Stencil", system-ui;
+
+font-family: "Aldrich", sans-serif;
+
+font-family: "Aclonica", sans-serif;
+
+font-family: "Squada One", sans-serif;
+
+
+
+
+
+
+
+
+
+
+
+
+
