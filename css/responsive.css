@@ -20,6 +20,7 @@
     }
     
     /* .seguradoras{
+
         display: flex;
         flex-wrap: wrap;
         width:320px;
@@ -28,12 +29,16 @@
         align-items: center;
     } */
 
+    #container {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
     .seguradoras{
         display: grid;
         grid-template-columns: auto;
         width:150px;
-        height: 250px;
-        margin-top: 10px;
+        height: 200px;
         justify-content: space-between;
         align-items: center;
         margin-left: -10px;
@@ -41,7 +46,7 @@
     
     .logocolumns {
         width:300px;
-        height: 250px;
+        height: 200px;
         display: grid;
         grid-template-columns: 150px 150px;
         justify-content: center;
@@ -59,7 +64,7 @@
 
     .logo{
         display: flex;
-        height: 70px;
+        height: 60px;
         justify-content: center;
         align-items: center;
     }
@@ -228,12 +233,16 @@
         align-items: center;
     } */
 
+    #container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
     .seguradoras{
         display: grid;
         grid-template-columns: auto;
         width:150px;
-        height: 250px;
-        margin-top: 10px;
+        height: 200px;
         justify-content: space-between;
         align-items: center;
         margin-left: -10px;
@@ -241,7 +250,7 @@
     
     .logocolumns {
         width:300px;
-        height: 250px;
+        height: 200px;
         display: grid;
         grid-template-columns: 150px 150px;
         justify-content: center;
@@ -259,7 +268,7 @@
 
     .logo{
         display: flex;
-        height: 70px;
+        height: 60px;
         justify-content: center;
         align-items: center;
     }
@@ -429,20 +438,26 @@
         font-size: 14px;
         margin: 5px;
     }
+
+    #container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     
     .seguradoras{
         display: grid;
         grid-template-columns: auto;
         width: 170px;
+        height: 200px;
         margin-top: 5px;
         justify-content: center;
         align-items: center;
-        margin-left: -10px;
+        margin-left: -8px;
     }
 
     .logocolumns {
         width:340px;
-        height: 250px;
+        height: 200px;
         display: grid;
         grid-template-columns: 170px 170px;
         justify-content: center;
@@ -460,7 +475,7 @@
 
     .logo{
         display: flex;
-        height: 70px;
+        height: 60px;
         justify-content: center;
         align-items: center;
     }
@@ -662,10 +677,16 @@
         align-items: center;
     } */
 
+    #container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
     .seguradoras{
         display: grid;
         grid-template-columns: auto;
         width: 170px;
+        height: 200px;
         margin-top: 5px;
         justify-content: center;
         align-items: center;
@@ -674,7 +695,7 @@
 
     .logocolumns {
         width:340px;
-        height: 250px;
+        height: 200px;
         display: grid;
         grid-template-columns: 170px 170px;
         justify-content: center;
@@ -692,7 +713,7 @@
 
     .logo{
         display: flex;
-        height: 70px;
+        height: 60px;
         justify-content: center;
         align-items: center;
     }
@@ -868,10 +889,16 @@
         align-items: center;
     } */
 
+    #container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
     .seguradoras{
         display: grid;
         grid-template-columns: auto;
         width: 170px;
+        height: 200px;
         margin-top: 5px;
         justify-content: center;
         align-items: center;
@@ -880,7 +907,7 @@
 
     .logocolumns {
         width:340px;
-        height: 250px;
+        height: 200px;
         display: grid;
         grid-template-columns: 170px 170px;
         justify-content: center;
@@ -898,7 +925,7 @@
 
     .logo{
         display: flex;
-        height: 70px;
+        height: 60px;
         justify-content: center;
         align-items: center;
     }
@@ -1061,10 +1088,17 @@
         align-items: center;
     } */
     
+    #container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
     .seguradoras{
         display: grid;
         grid-template-columns: auto;
         width: 170px;
+        height: 200px;
         margin-top: 5px;
         justify-content: center;
         align-items: center;
@@ -1073,7 +1107,7 @@
 
     .logocolumns {
         width:340px;
-        height: 250px;
+        height: 200px;
         display: grid;
         grid-template-columns: 170px 170px;
         justify-content: center;
@@ -1091,7 +1125,7 @@
 
     .logo{
         display: flex;
-        height: 70px;
+        height: 60px;
         justify-content: center;
         align-items: center;
     }
