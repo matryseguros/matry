@@ -851,6 +851,10 @@
 
 @media (min-width: 401px) and (max-width: 425px){
 
+    .bio{
+        height: 740px;
+    }
+
     .container{
         margin-top: 10px;
         justify-content: center;
