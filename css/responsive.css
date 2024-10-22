@@ -208,7 +208,10 @@
 }
     
 @media (min-width: 321px) and (max-width: 359px){ 
-
+    .fa-whatsapp{
+        
+        color: black;
+    }
     .container{
         margin-top: 10px;
         justify-content: center;
@@ -421,6 +424,11 @@
 
 
 @media (min-width: 360px) and (max-width: 375px){ 
+    .fa-whatsapp{
+        
+        color: red;
+    }
+
     .container{
         margin-top: 5px;
         justify-content: center;
@@ -639,6 +647,11 @@
 
 @media (min-width: 376px) and (max-width: 400px){
 
+    .fa-whatsapp{
+        
+        color: green;
+    }
+
     .container{
         margin-top: 10px;
         justify-content: center;
@@ -850,7 +863,10 @@
 } 
 
 @media (min-width: 401px) and (max-width: 425px){
-
+    .fa-whatsapp{
+        
+        color: fuchsia;
+    }
 
     .container{
         margin-top: 10px;
