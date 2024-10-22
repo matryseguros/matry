@@ -1,5 +1,10 @@
-@media (max-width: 320px){
 
+/* confirmar se Instagram usa essa resolução */
+@media (max-width: 320px){
+    .fa-whatsapp{
+        
+        color: green;
+    }
     .container{
         margin-top: 10px;
         justify-content: center;
@@ -30,8 +35,8 @@
     } */
 
     #container {
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 5px;
+        margin-bottom: 25px;
     }
 
     .seguradoras{
@@ -208,10 +213,6 @@
 }
     
 @media (min-width: 321px) and (max-width: 359px){ 
-    .fa-whatsapp{
-        
-        color: black;
-    }
     .container{
         margin-top: 10px;
         justify-content: center;
@@ -422,13 +423,9 @@
     
 }
 
-
+/* Gessyka Chrome e Samsung usam essa resolução */
 @media (min-width: 360px) and (max-width: 375px){ 
-    .fa-whatsapp{
-        
-        color: red;
-    }
-
+    
     .container{
         margin-top: 5px;
         justify-content: center;
@@ -647,11 +644,6 @@
 
 @media (min-width: 376px) and (max-width: 400px){
 
-    .fa-whatsapp{
-        
-        color: green;
-    }
-
     .container{
         margin-top: 10px;
         justify-content: center;
@@ -863,10 +855,6 @@
 } 
 
 @media (min-width: 401px) and (max-width: 425px){
-    .fa-whatsapp{
-        
-        color: fuchsia;
-    }
 
     .container{
         margin-top: 10px;
@@ -1078,7 +1066,13 @@
     }    
 } 
 
+/* confirmar se Instagram usa essa resolução */
 @media (min-width: 426px) and (max-width: 768px){
+
+    .fa-whatsapp{
+        
+        color: fuchsia;
+    }
 
     .container{
         margin-top: 10px;
@@ -1106,8 +1100,8 @@
     } */
     
     #container {
-        margin-top: 15px;
-        margin-bottom: 20px;
+        margin-top: 5px;
+        margin-bottom: 25px;
     }
 
 
