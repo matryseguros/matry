@@ -214,6 +214,11 @@
 }
     
 @media (min-width: 321px) and (max-width: 359px){ 
+    .fa-whatsapp{
+        
+        color: pink;
+    }
+    
     .container{
         margin-top: 10px;
         justify-content: center;
@@ -428,6 +433,10 @@
 /* Gessyka Chrome e Samsung usam essa resolução */
 @media (min-width: 360px) and (max-width: 375px){ 
     
+    .fa-whatsapp{
+        
+        color: blue;
+    }
     .container{
         margin-top: 5px;
         justify-content: center;
@@ -646,7 +655,10 @@
 /* falta mexer */
 
 @media (min-width: 376px) and (max-width: 400px){
-
+    .fa-whatsapp{
+        
+        color: orange;
+    }
     .container{
         margin-top: 10px;
         justify-content: center;
@@ -859,7 +871,10 @@
 } 
 
 @media (min-width: 401px) and (max-width: 425px){
-
+    .fa-whatsapp{
+        
+        color: darkturquoise;
+    }
     .container{
         margin-top: 10px;
         justify-content: center;
@@ -1303,7 +1318,10 @@
 } 
 
 @media (min-width: 769px) {
-
+    .fa-whatsapp{
+        
+        color: yellowgreen;
+    }
     .container{
         margin-top: 5px;
         justify-content: center;
