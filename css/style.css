@@ -104,6 +104,7 @@
 	width: 800px;
 	margin-bottom: 100px;
 	z-index: 1;
+	
 }
 
 .logo{
@@ -355,7 +356,7 @@ button i {
 /* BANNER */
 
 #container {
-    width: 100%;
+    width: 50%;
     height: 3.1rem;
     /* font-family: Montserrat; */
 	font-family: "Anton", sans-serif;
@@ -365,6 +366,7 @@ button i {
     /* background: #000; */
     color: #fff;
 	margin-top: -20px;
+	
 }
 #container .scroll {
     /* background: #000; */
