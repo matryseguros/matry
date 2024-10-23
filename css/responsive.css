@@ -457,6 +457,10 @@
         font-weight: 700;
         font-size: 14px;
         margin: 5px;
+        color: black;
+        /* text-shadow: 0.5px 0.5px  black; */    
+    
+        
     }
 
     #container {
@@ -656,7 +660,7 @@
 
     @keyframes loop {
         0% {transform: translateX(8%);}
-        100% {transform: translateX(-92%);}
+        100% {transform: translateX(-91%);}
     }
     
 }
