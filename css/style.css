@@ -2,7 +2,7 @@
     display: flex;
 	flex-direction: column;
 	/* background-image: linear-gradient(#bf9b30, #ffbf00, #ffbf00, #bf9b30); */
-	background-image: url(../images/fundo/fundo.png);
+	background-image: url(../images/fundo/escolha-gessyka.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -266,10 +266,10 @@
 
 button {
 	width: 300px;
-	height: 80px;
+	height: 110px;
 	cursor: pointer;
 	font-family: "Freeman", sans-serif;
-	font-size: 26px;
+	font-size: 24px;
 	font-weight: 400;
 	color: black;
 	background: radial-gradient(circle,
@@ -359,7 +359,7 @@ button i {
 
 #container {
     width: 100%;
-    height: 3.1rem;
+    height: 50px;
     /* font-family: Montserrat; */
 	font-family: "Anton", sans-serif;
     position: relative;
@@ -368,6 +368,7 @@ button i {
     /* background: #000; */
     color: #fff;
 	margin-top: -20px;
+	justify-content: center;
 	
 }
 #container .scroll {
