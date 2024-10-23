@@ -2,7 +2,7 @@
     display: flex;
 	flex-direction: column;
 	/* background-image: linear-gradient(#bf9b30, #ffbf00, #ffbf00, #bf9b30); */
-	background-image: url(../images/fundo/escolha-gessyka-menor.png);
+	background-image: url(../images/fundo/fundo.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
