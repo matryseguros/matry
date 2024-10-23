@@ -433,13 +433,8 @@
 /* Gessyka Chrome e Samsung usam essa resolução */
 @media (min-width: 360px) and (max-width: 375px){ 
     
-    body{
-        min-width: 360px;
-        max-width: 375px;
-    }
-
     .item {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .fa-whatsapp{
@@ -465,7 +460,7 @@
     }
 
     #container {
-        width: 100%;
+        width: 30%;
         margin-top: 15px;
         margin-bottom: 15px;
     }
