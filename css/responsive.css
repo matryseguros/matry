@@ -1,10 +1,10 @@
 
 /* confirmar se Instagram usa essa resolução */
 @media (max-width: 320px){
-    .fa-whatsapp{
+    /* .fa-whatsapp{
         
         color: green;
-    }
+    } */
     .container{
         margin-top: 10px;
         justify-content: center;
@@ -214,11 +214,11 @@
 }
     
 @media (min-width: 321px) and (max-width: 359px){ 
-    .fa-whatsapp{
+    /* .fa-whatsapp{
         
         color: pink;
     }
-    
+     */
     .container{
         margin-top: 10px;
         justify-content: center;
@@ -430,17 +430,17 @@
     
 }
 
-/* Gessyka Chrome e Samsung usam essa resolução */
+/* Gessyka/Mateus Instagram, Chrome e Samsung usam essa resolução */
 @media (min-width: 360px) and (max-width: 375px){ 
     
     .item {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
-    .fa-whatsapp{
+    /* .fa-whatsapp{
         
         color: blue;
-    }
+    } */
     .container{
         margin-top: 5px;
         justify-content: center;
@@ -460,7 +460,7 @@
     }
 
     #container {
-        width: 30%;
+        width: 100%;
         margin-top: 15px;
         margin-bottom: 15px;
     }
@@ -653,16 +653,21 @@
     section .contacts{
         margin-top: 5px;
     }
+
+    @keyframes loop {
+        0% {transform: translateX(8%);}
+        100% {transform: translateX(-100%);}
+    }
     
 }
 
 /* falta mexer */
 
 @media (min-width: 376px) and (max-width: 400px){
-    .fa-whatsapp{
+    /* .fa-whatsapp{
         
         color: orange;
-    }
+    } */
     .container{
         margin-top: 10px;
         justify-content: center;
@@ -875,10 +880,10 @@
 } 
 
 @media (min-width: 401px) and (max-width: 425px){
-    .fa-whatsapp{
+    /* .fa-whatsapp{
         
         color: darkturquoise;
-    }
+    } */
     .container{
         margin-top: 10px;
         justify-content: center;
@@ -1090,13 +1095,13 @@
     }    
 } 
 
-/* confirmar se Instagram usa essa resolução */
+
 @media (min-width: 426px) and (max-width: 768px){
 
-    .fa-whatsapp{
+    /* .fa-whatsapp{
         
         color: fuchsia;
-    }
+    } */
 
     .container{
         margin-top: 10px;
@@ -1322,10 +1327,10 @@
 } 
 
 @media (min-width: 769px) {
-    .fa-whatsapp{
+    /* .fa-whatsapp{
         
         color: yellowgreen;
-    }
+    } */
     .container{
         margin-top: 5px;
         justify-content: center;
