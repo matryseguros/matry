@@ -2,7 +2,7 @@
     display: flex;
 	flex-direction: column;
 	/* background-image: linear-gradient(#bf9b30, #ffbf00, #ffbf00, #bf9b30); */
-	background-image: url(../images/fundo/escolha-gessyka-menor.png);
+	background-image: url(../images/fundo/escolha-gessyka.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -72,8 +72,8 @@
 	font-family: "Roboto", sans-serif;
 	font-weight: 700;
 	font-size: 20px;
-	color: white;
-	text-shadow: 1px 1px black;
+	color: black;
+	text-shadow: 1px 1px white;
 	text-align: center;
 	margin: 10px;
 }
@@ -308,7 +308,7 @@ section .contacts{
 .contacts a {
 	display: flex;
 	text-decoration: none;
-	color: #FFF;
+	color: #000;
 	margin-right: 15px;
 	justify-content: space-evenly;
 	align-items: center;
@@ -321,7 +321,7 @@ section .contacts{
 	/* font-family: "Caveat", cursive; */
 	font-size: 20px;
 	font-weight: 400;
-	text-shadow: 1.2px 0.5px black;
+	text-shadow: 1.2px 0.5px white;
 }
 
 .contacts i{
