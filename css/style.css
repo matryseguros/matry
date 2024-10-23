@@ -73,7 +73,7 @@
 	font-weight: 700;
 	font-size: 20px;
 	color: black;
-	text-shadow: 1px 1px white;
+	 /* text-shadow: 1px 1px white; */
 	text-align: center;
 	margin: 10px;
 }
@@ -274,6 +274,7 @@ button {
 	color: black;
 	background: radial-gradient(circle,
     #ffcf40,#ffbf00);
+	/* background: none; */
 	border: 2px solid white;
 	box-shadow: 5px 5px 0 white, -5px -5px 0 white, -5px 5px 0 white,
 		5px -5px 0 white;
@@ -321,7 +322,8 @@ section .contacts{
 	/* font-family: "Caveat", cursive; */
 	font-size: 20px;
 	font-weight: 400;
-	text-shadow: 1.2px 0.5px white;
+	/* text-shadow: 1.2px 0.5px white; */
+	
 }
 
 .contacts i{
