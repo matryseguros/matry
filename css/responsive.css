@@ -461,8 +461,8 @@
 
     #container {
         width: 100%;
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 10px;
+        margin-bottom: 25px;
     }
     
     .seguradoras{
@@ -656,7 +656,7 @@
 
     @keyframes loop {
         0% {transform: translateX(8%);}
-        100% {transform: translateX(-100%);}
+        100% {transform: translateX(-90%);}
     }
     
 }
