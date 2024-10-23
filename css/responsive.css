@@ -659,8 +659,8 @@
     }
 
     @keyframes loop {
-        0% {transform: translateX(9%);}
-        100% {transform: translateX(-90%);}
+        0% {transform: translateX(10%);}
+        100% {transform: translateX(-92%);}
     }
     
 }
