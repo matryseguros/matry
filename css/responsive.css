@@ -668,7 +668,7 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
     }
 
     @keyframes loop {
-        0% {transform: translateX(58%);}
+        0% {transform: translateX(52%);}
         100% {transform: translateX(-48.5%);}
     }
 
