@@ -442,7 +442,7 @@
         color: blue;
     } */
     .container{
-        margin-top: 25px;
+        margin-top: 15px;
         justify-content: center;
     }
     
@@ -479,7 +479,7 @@
         display: grid;
         grid-template-columns: auto;
         width: 170px;
-        height: 200px;
+        height: 190px;
         margin-top: 5px;
         justify-content: center;
         align-items: center;
@@ -498,15 +498,15 @@
     .behind-logo{
         position: relative;	
         display: grid;
-        height: 50px;
+        height: 220px;
         width: 360px;
-        margin-bottom: 150px;
+        margin-bottom: 0px;
         z-index: 1;
     }
 
     .logo{
         display: flex;
-        height: 60px;
+        height: 50px;
         justify-content: center;
         align-items: center;
     }
@@ -665,7 +665,7 @@
     }
 
     @keyframes loop {
-        0% {transform: translateX(6%);}
+        0% {transform: translateX(7%);}
         100% {transform: translateX(-92%);}
     }
     
