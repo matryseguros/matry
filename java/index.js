@@ -3,5 +3,5 @@ function btnClicked(){
 }
 
 function btnEmailClicked(){
-    { window.location.href="mailto:carmem@matryseguros.com.br" };
+    { window.location.href="https://matryseguros.github.io/matry" };
 }
