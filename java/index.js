@@ -4,7 +4,8 @@ function btnClicked(){
 
 <!-- function btnEmailClicked(){
     { window.location.href="https://matryseguros.github.io/matry" };
-} -->
+} 
+-->
 var ua = navigator.userAgent || window.opera || navigator.vendor;
 var isInstagram = (ua.indexOf('Instagram') > -1) ? true : false;
 
