@@ -434,7 +434,13 @@
 obs: tela do instagram Gessyka aparentemente em 375 x 651
 */ 
 @media (min-width: 360px) and (max-width: 375px){ 
-    
+     
+    .instagram-browser{
+        background-image: black;
+	    
+    }
+
+	
     .item {
         font-size: 0.8rem;
     }
