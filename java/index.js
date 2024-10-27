@@ -4,9 +4,13 @@ function btnClicked(){
 
 var ua = navigator.userAgent || window.opera || navigator.vendor;
 var isInstagram = (ua.indexOf('Instagram') > -1) ? true : false;
-
+console.log(ua)
 if (document.documentElement.classList ){
 	if (isInstagram) {
-		window.document.body.classList.add('instagram-browser');
-	}
+        var element = document.getElementById('advice')
+		element.classList.add('instagram-browser');
+	}else{
+        var element = document.getElementById('advice')
+        element.classList.add('notvisible');
+    }
 }
