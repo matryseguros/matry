@@ -36,7 +36,19 @@
 	}
 }
 
+#advice{
+	padding: 5px;
+	padding-bottom: 0px;;
 
+}
+
+#advice img{
+	width:5px;
+}
+#advice p{
+	
+	text-align: center;
+}
 
 .matry{
 	width: 180px;
