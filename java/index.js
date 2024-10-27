@@ -12,6 +12,5 @@ var isInstagram = (ua.indexOf('Instagram') > -1) ? true : false;
 if (document.documentElement.classList ){
 	if (isInstagram) {
 		window.document.body.classList.add('instagram-browser');
-    alert("debugging within the Instagram in-app browser");
 	}
 }
