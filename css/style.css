@@ -36,6 +36,12 @@
 	}
 }
 
+.notvisible{
+
+	visibility: hidden;
+
+}
+
 #advice{
 	padding: 5px;
 	padding-bottom: 0px;;
