@@ -43,11 +43,13 @@
 }
 
 #advice img{
-	width:5px;
+	width: 5px;
 }
 #advice p{
-	
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
+	font-size: 10px;
+	font-weight: 600;
 }
 
 .matry{
