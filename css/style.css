@@ -428,7 +428,7 @@ button i {
     pointer-events: none;
 }
 @keyframes loop {
-    0% {transform: translateX(6%);}
+    0% {transform: translateX(7%);}
     100% {transform: translateX(-100%);}
 }
 .item {
