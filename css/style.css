@@ -55,10 +55,17 @@
 	display: flex;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
-	font-size: 10px;
+	font-size: 12px;
 	font-weight: 600;
 	justify-items: center;
 	align-items: center;
+	color: #FFF;
+	text-shadow:
+	1px  1px 0 #000,
+   	-1px -1px 0 #000,  
+	1px -1px 0 #000,
+   	-1px  1px 0 #000,
+	1px  1px 0 #000;
 }
 
 .matry{
