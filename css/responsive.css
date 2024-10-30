@@ -5,6 +5,11 @@
         color: green;
     } */
 
+    .fa-whatsapp{
+        
+        color: green;
+    }
+
     .item {
         font-size: 0.8rem;
         padding: 0.4rem 1rem;
@@ -225,7 +230,10 @@
         color: pink;
     }
      */
-
+    .fa-whatsapp{
+        
+        color: pink;
+    }
     .item {
         font-size: 0.8rem;
         padding: 0.4rem 1rem;
@@ -723,6 +731,11 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
         color: orange;
     } */
 
+    .fa-whatsapp{
+        
+        color: orange;
+    }
+
     .item {
         font-size: 0.8rem;
         padding: 0.4rem 1rem;
@@ -958,6 +971,11 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
         color: darkturquoise;
     } */
 
+    .fa-whatsapp{
+        
+        color: darkturquoise;
+    }
+
     .item {
         font-size: 0.9rem;
         padding: 0.4rem 1rem;
@@ -1188,6 +1206,11 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
         
         color: fuchsia;
     } */
+
+    .fa-whatsapp{
+        
+        color: fuchsia;
+    }
 
     .item {
         font-size: 1rem;
@@ -1431,6 +1454,12 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
         
         color: yellowgreen;
     } */
+
+    .fa-whatsapp{
+        
+        color: yellowgreen;
+    }
+	
     .container{
         margin-top: 5px;
         justify-content: center;
