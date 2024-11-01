@@ -1400,6 +1400,11 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
         font-size: 18px;
     }
 
+    @keyframes loop {
+        0% {transform: translateX(11%);}
+        100% {transform: translateX(-100%);}
+    }
+
 } 
 
 @media (min-width: 769px) {
@@ -1622,7 +1627,7 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
     }
 
     @keyframes loop {
-        0% {transform: translateX(12%);}
+        0% {transform: translateX(13%);}
         100% {transform: translateX(-100%);}
     }
 
