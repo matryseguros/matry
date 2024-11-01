@@ -1,13 +1,13 @@
 .bio{
-    display: flex;
+	display: flex;
 	flex-direction: column;
 	/* background-image: linear-gradient(#bf9b30, #ffbf00, #ffbf00, #bf9b30); */
 	background-image: url(../images/fundo/fundo.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-    width: 100vw;
-    height: 100vh;
+	width: 100vw;
+	height: 100vh;
 	justify-content: center;
 	align-items: center;
 	
@@ -43,14 +43,15 @@
 }
 
 #advice{
-	padding: 5px;
+	display: flex;
+	padding: 0px 5px;
 	padding-bottom: 0px;;
 
 }
 
 #advice img{
 	/* width: 5px; */
-	width: 320px;
+	width: 310px;
 }
 #advice p{
 	display: flex;
@@ -62,11 +63,11 @@
 	align-items: center;
 	color: #FFF;
 	text-shadow:
-	1px  1px 0 #000,
-   	-1px -1px 0 #000,  
-	1px -1px 0 #000,
-   	-1px  1px 0 #000,
-	1px  1px 0 #000;
+	1.2px  1.2px 0 #000,
+   	-1.2px -1.2px 0 #000,  
+	1.2px -1.2px 0 #000,
+   	-1.2px  1.2px 0 #000,
+	1.2px  1.2px 0 #000;
 }
 
 .matry{
