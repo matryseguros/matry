@@ -150,14 +150,14 @@
     @keyframes moveleft{
         0%   { margin-left: 150px; width: 130px; opacity: 0; margin-top: -15px;}
         25%  {opacity: 0;}
-        40%	 {opacity: 1;}
+        40%  {opacity: 1;}
         100% { margin-left: 30px; }	
     }
     
     @keyframes moveleftmoto{
         0%   { margin-left: 220px; width: 80px; opacity: 0; }
-        40%	 {opacity: 0;}
-        41%	 {opacity: 1;}
+        40%  {opacity: 0;}
+        41%  {opacity: 1;}
         100% { margin-left: 25px; }	
     }
     
@@ -525,7 +525,7 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
     }
 
     .logocolumns {
-        width:340px;
+        width: 340px;
         height: 180px;
         display: grid;
         grid-template-columns: 170px 170px;
@@ -619,14 +619,14 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
     @keyframes moveleft{
         0%   { margin-left: 150px; width: 130px; opacity: 0; margin-top: -15px;}
         20%  {opacity: 0;}
-        21%	 {opacity: 1;}
+        21%  {opacity: 1;}
         100% { margin-left: 30px; }	
     }
     
     @keyframes moveleftmoto{
         0%   { margin-left: 220px; width: 80px; opacity: 0; }
-        40%	 {opacity: 0;}
-        41%	 {opacity: 1;}
+        40%  {opacity: 0;}
+        41%  {opacity: 1;}
         100% { margin-left: 25px; }	
     }
     
@@ -877,14 +877,14 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
     @keyframes moveleft{
         0%   { margin-left: 150px; width: 130px; opacity: 0; margin-top: -15px;}
         25%  {opacity: 0;}
-        26%	 {opacity: 1;}
+        26%  {opacity: 1;}
         100% { margin-left: 30px; }	
     }
     
     @keyframes moveleftmoto{
         0%   { margin-left: 220px; width: 80px; opacity: 0; margin-top: -10px; }
-        30%	 {opacity: 0;}
-        31%	 {opacity: 1;}
+        30%  {opacity: 0;}
+        31%  {opacity: 1;}
         100% { margin-left: 25px; }	
     }
     
@@ -1112,14 +1112,14 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
     @keyframes moveleft{
         0%   { margin-left: 150px; width: 130px; opacity: 0; margin-top: -15px;}
         20%  {opacity: 0;}
-        21%	 {opacity: 1;}
+        21%  {opacity: 1;}
         100% { margin-left: 30px; }	
     }
     
     @keyframes moveleftmoto{
         0%   { margin-left: 220px; width: 80px; opacity: 0; }
-        40%	 {opacity: 0;}
-        41%	 {opacity: 1;}
+        40%  {opacity: 0;}
+        41%  {opacity: 1;}
         100% { margin-left: 25px; }	
     }
     
@@ -1333,14 +1333,14 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
     @keyframes moveleft{
         0%   { margin-left: 150px; width: 130px; opacity: 0; margin-top: -15px;}
         20%  {opacity: 0;}
-        21%	 {opacity: 1;}
+        21%  {opacity: 1;}
         100% { margin-left: 30px; }	
     }
     
     @keyframes moveleftmoto{
         0%   { margin-left: 220px; width: 80px; opacity: 0; }
-        40%	 {opacity: 0;}
-        41%	 {opacity: 1;}
+        40%  {opacity: 0;}
+        41%  {opacity: 1;}
         100% { margin-left: 25px; }	
     }
     
@@ -1392,31 +1392,7 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
     .seguradoras .allianz{
         width: 120px;
         height: 60px;
-    }    
-
-
-    .seguradoras img{
-        width: 110px;
-        margin: 5px;
-        margin-right: 10px;
-    }
-    .seguradoras .tokio {
-        width: 150px;
-        height: 60px;
-    }
-    
-    .seguradoras .yelum{
-        width: 160px;
-        
-    }
-    /* .seguradoras .liberty{
-        width: 120px;
-    } */
-    
-    .seguradoras .allianz{
-        width: 120px;
-        height: 60px;
-    } 
+    }     
     
     button {
         width: 260px;
@@ -1451,7 +1427,7 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
     }
 
     #container {
-        width: 40%;
+        width: 100%;
         margin-top: 15px;
         margin-bottom: 15px;
     }
@@ -1561,14 +1537,14 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
     @keyframes moveleft{
         0%   { margin-left: 150px; width: 130px; opacity: 0; margin-top: -15px;}
         20%  {opacity: 0;}
-        21%	 {opacity: 1;}
+        21%  {opacity: 1;}
         100% { margin-left: 30px; }	
     }
     
     @keyframes moveleftmoto{
         0%   { margin-left: 220px; width: 80px; opacity: 0; }
-        40%	 {opacity: 0;}
-        41%	 {opacity: 1;}
+        40%  {opacity: 0;}
+        41%  {opacity: 1;}
         100% { margin-left: 25px; }	
     }
     
@@ -1644,5 +1620,21 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
     section .contacts{
         margin-top: 5px;
     }
+
+    @keyframes loop {
+        0% {transform: translateX(12%);}
+        100% {transform: translateX(-100%);}
+    }
+
+}
+
+@media (orientation: landscape){
+
+.bio{
+
+    height: 750px;
+
+}
+
 
 }
