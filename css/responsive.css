@@ -1632,7 +1632,7 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
 
 .bio{
 
-    height: 750px;
+    min-height: 750px;
 
 }
 
