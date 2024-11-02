@@ -505,13 +505,13 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
         margin-top: 10px;
         margin-bottom: -20px;
     }
-    #container .scroll{
+    /* #container .scroll{
 
         align-self: center;
         justify-self: center;
 	animation-fill-mode: both;
 	animation-delay: 0s;
-    }
+    } */
     
     .seguradoras{
         display: grid;
