@@ -18,7 +18,18 @@
     .matry{
         width: 100px;
         align-self: center;
-        padding: 30px; 
+        /* padding: 30px;  */
+    }
+
+    .matry-img{
+        display: flex;
+        width: 160px;
+        height: 160px;
+    }
+
+    .shiny-logo{
+        width: 160px;
+        height: 160px;
     }
     
     
@@ -239,6 +250,17 @@
     
     .matry{
         width: 140px;
+    }
+
+    .matry-img{
+        display: flex;
+        width: 200px;
+        height: 200px;
+    }
+
+    .shiny-logo{
+        width: 200px;
+        height: 200px;
     }
     
     .links p{
@@ -485,9 +507,20 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
     .matry{
         width: 150px;
         padding: 15px;
-        margin-top: 12px;
+        /* margin-top: 12px; */
     }
     
+    .matry-img{
+        display: flex;
+        width: 200px;
+        height: 200px;
+    }
+
+    .shiny-logo{
+        width: 200px;
+        height: 200px;
+    }
+
     .links p{
         font-family: "Roboto", sans-serif;
         font-weight: 700;
@@ -737,6 +770,17 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
         width: 140px;
         align-self: center; 
     }
+
+    .matry-img{
+        display: flex;
+        width: 200px;
+        height: 200px;
+    }
+
+    .shiny-logo{
+        width: 200px;
+        height: 200px;
+    }
     
     .links p{
         font-family: "Roboto", sans-serif;
@@ -972,6 +1016,17 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
         width: 140px;
         align-self: center; 
     }
+
+    .matry-img{
+        display: flex;
+        width: 200px;
+        height: 200px;
+    }
+
+    .shiny-logo{
+        width: 200px;
+        height: 200px;
+    }
     
     .links p{
         font-family: "Roboto", sans-serif;
@@ -1203,6 +1258,18 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
     .matry{
         width: 150px;
         align-self: center; 
+        
+    }
+
+    .matry-img{
+        display: flex;
+        width: 210px;
+        height: 210px;
+    }
+
+    .shiny-logo{
+        width: 210px;
+        height: 210px;
     }
     
     .links p{
@@ -1421,7 +1488,18 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
     .matry{
         width: 150px;
         padding: 15px;
-        margin-top: 5px;
+        /* margin-top: 5px; */
+    }
+
+    .matry-img{
+        display: flex;
+        width: 200px;
+        height: 200px;
+    }
+
+    .shiny-logo{
+        width: 200px;
+        height: 200px;
     }
     
     .links p{

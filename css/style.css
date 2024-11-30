@@ -36,6 +36,8 @@
 	}
 }
 
+
+
 .notvisible{
 
 	visibility: hidden;
@@ -108,7 +110,55 @@
 	position: relative;
 	justify-self: center;
 	align-self: center;
+	display: flex;
+	width:240px;
+	height: 240px;
+	transition: 0.5;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 0;
+	animation-delay: 2s;
+	animation: logo-shadow 2s ease-in 1 forwards;
 	
+}
+
+.shiny-logo{
+	display: flex;
+	position: relative;
+	width:240px;
+	height: 240px;
+	transition: 0.5;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 0;
+}
+
+.shiny-logo span{
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: -110%;
+	width: 15%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	transition: 2s;
+	transform: skewX(30deg);
+	animation: brilho 2s ease-in-out 2s 2 alternate; 			   
+}
+
+
+@keyframes logo-shadow{
+
+100%{box-shadow: 0 30px 35px rgba(0,0,0,0.7);}
+}
+
+@keyframes brilho{
+	from{
+		left:-110%;
+	}
+	to{
+		left: 110%;
+	}
 
 }
 
