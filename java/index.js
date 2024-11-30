@@ -14,3 +14,11 @@ if (document.documentElement.classList ){
         element.classList.add('notvisible');
     }
 }
+
+
+const firstIntervalId = setInterval(() => {
+
+
+    var element = document.getElementById("shine");
+    element.classList.toggle("shiny-logo");
+  }, 6000);
