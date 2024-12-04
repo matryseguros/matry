@@ -162,6 +162,12 @@
 
 }
 
+.msg{
+	position: relative;
+	max-width: 350px;
+	z-index:1000;
+}
+
 .links{
 	display: flex;
 	flex-direction: column;

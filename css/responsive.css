@@ -40,6 +40,10 @@
         margin-bottom: 20px;
         margin-top: 0;
     }
+
+    .msg{
+        width:250px;
+    }
     
     /* .seguradoras{
 
@@ -267,6 +271,10 @@
         font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 14px;
+    }
+
+    .msg{
+        max-width:280px;
     }
     
     /* .seguradoras{
@@ -619,7 +627,7 @@ obs: tela do instagram Gessyka aparentemente em 375 x 651
 
     .corolla-img{
         position: relative;
-        margin-top: -71.5px;
+        margin-top: -70px;
         margin-left: -5px;
         width: 200px;
 
